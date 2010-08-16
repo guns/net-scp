@@ -1,4 +1,4 @@
-require 'common'
+require File.expand_path('../common', __FILE__)
 
 class TestSCP < Net::SCP::TestCase
   def test_start_without_block_should_return_scp_instance

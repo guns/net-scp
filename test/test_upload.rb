@@ -1,4 +1,4 @@
-require 'common'
+require File.expand_path('../common', __FILE__)
 
 class TestUpload < Net::SCP::TestCase
   def test_upload_file_should_transfer_file
